@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .tableheader {
+      background-color: blue;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+
+    nav {
+      float: left;
+      width: 30%;
+      height: 300px;
+      background: paleturquoise;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: white;
+      height: 300px;
+    }
+
+    footer {
+      background-color: blue;
+      padding: 10px;
+      padding-top: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    table,
+    tr,
+    th,
+    td {
+      border: solid 2px;
+      border-collapse: collapse;
+      border-style: ridge;
+      font-family: "Times New Roman", Times, serif;
+      width: 800px;
+      height: 50px;
+    }
+
+    th {
+      font-size: 30px;
+    }
+
+    td:hover {
+      background-color: blue;
+    }
+
+    .link {
+      background-color: blue;
+      color: white;
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .link:hover,
+    .link:active {
+      background-color: red;
+      font-style: italic;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    pre {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .headlist {
+      background-color: blue;
+      list-style-type: none;
+      padding: 0px;
+      margin: 0;
+    }
+
+    .headlist li {
+      display: inline-block;
+      padding: 20px;
+      cursor: pointer;
+    }
+
+    .headlist li:hover {
+      background-color: aquamarine;
+    }
+
+    .logo {
+      height: 50px;
+      width: 50px;
+      border: 2px solid blue;
+      border-radius: 50%;
+    }
+  </style>
+
+  <body style="background-color: aqua">
+    <header>
+      <div><img src="Toboy.jpg" class="logo" alt="" /><span>Toboy</span></div>
+      <ul class="headlist">
+        <li>Home</li>
+        <li>Contact us</li>
+        <li>About us</li>
+        <li>Social Media</li>
+        <li>Portfolio</li>
+      </ul>
+    </header>
+
+    <h1.>Toboy's Website</h1.>
+    <h2>.Welcome to my website</h2>
+    <p>
+      here you will get to find all you need to know about me. <br />You will
+      also get updated about me. Stay tuned
+    </p>
+
+    <p>Here are some of the ways in which I can be contacted</p>
+    <pre>
+    <a href="eziketochukwusylvanus@gmail.com">Email</a>
+    <a href="https://www.facebook.com/profile.php?id=100037436078224"
+      >facebook</a>
+    <a href="https://wa.me/qr/TXBADHT4KY2KG1">Whatsapp</a></pre>
+    <p>
+      <img
+        src="Toboy.jpg"
+        alt="Picture of Toboy"
+        style="height: 200px; width: 160px"
+      />
+      <!-- this is a comment, so i dont expect it to show -->
+    </p>
+
+    <p>
+      <iframe
+        style="height: 500px; width: 500px"
+        src="demo_iframe.htm"
+        name="iframe_a"
+      ></iframe>
+    </p>
+    <p>
+      <a href="https://www.w3schools.com/" target="iframe_a">
+        <img src="w3 logo.png" alt="HTML tutorial" style="width: 80px;"
+        height="80px;"
+      </a>
+    </p>
+
+    <p class="link">
+      <a style="color: white" href="https://facebook.com/" target="iframe_a"
+        >facebook
+      </a>
+    </p>
+
+    <div class="tablecover" style="overflow: auto">
+      <table>
+        <caption>
+          Students Information
+        </caption>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>School</th>
+          <th>Employment status</th>
+          <th>Department</th>
+        </tr>
+
+        <tr>
+          <td rowspan="4">Ezike Tochi</td>
+          <td>20</td>
+          <td>Unn</td>
+          <td>Student</td>
+          <td>Computer Science</td>
+        </tr>
+
+        <tr>
+          <td>20</td>
+          <td>Unn</td>
+          <td>Student</td>
+          <td>Computer Science</td>
+        </tr>
+
+        <tr>
+          <td>20</td>
+          <td>Unn</td>
+          <td>Student</td>
+          <td>Computer Science</td>
+        </tr>
+
+        <tr>
+          <td>20</td>
+          <td>Unn</td>
+          <td>Student</td>
+          <td>Computer Science</td>
+        </tr>
+      </table>
+    </div>
+
+    <ul>
+      <li>facebook</li>
+      <li>Whatsapp</li>
+      <li>email</li>
+      <li>snapchat</li>
+    </ul>
+
+    <ol>
+      <li>facebook</li>
+      <li>Whatsapp</li>
+      <li>email</li>
+      <li>snapchat</li>
+    </ol>
+
+    <!-- ol for ordered list
+     ul for unordered list
+     then li to list -->
+
+    <script></script>
+
+    <header class="tableheader">
+      <h2>Cities</h2>
+    </header>
+
+    <section>
+      <nav>
+        <ul>
+          <li><a href="eziketochukwusylvanus@gmail.com">Email</a></li>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100037436078224"
+              >facebook</a
+            >
+          </li>
+          <li><a href="https://wa.me/qr/TXBADHT4KY2KG1">Whatsapp</a></li>
+        </ul>
+      </nav>
+
+      <article>
+        <h1>FACEBOOK</h1>
+        <p>
+          Facbook revolutionized social media since 2004. it connects 2.9
+          billion users, enabling sharing and interaction, and is essential for
+          businesses and public figures <br />
+          Despite challenges, Facebook remians a vital part of our digital
+          lives, shaping online socialization and communication
+        </p>
+      </article>
+    </section>
+
+    <footer>
+      <p>Thank You</p>
+    </footer>
+  </body>
+</html>

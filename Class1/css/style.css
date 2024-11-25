@@ -1,0 +1,118 @@
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+.first {
+  font-size: 2em;
+  color: red;
+  outline: 10px solid blue;
+  border: solid 5px black;
+}
+.first,
+.second,
+.third {
+  margin: 50px 0px;
+  font-size: 2em;
+}
+
+.parent {
+  border: 2px solid;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+}
+
+.headtext {
+  text-transform: uppercase;
+  text-align: center;
+  color: blue;
+  text-shadow: 2px 2px 5px black;
+  font-family: sans-serif;
+}
+
+.parent p {
+  font-size: 1.2em;
+  line-height: 2em;
+  letter-spacing: 0.1em;
+  word-spacing: 8px;
+  text-align: justify;
+}
+
+table,
+tr,
+th,
+td {
+  border: solid 2px;
+  border-collapse: collapse;
+  border-style: ridge;
+  font-family: "Times New Roman", Times, serif;
+  width: 800px;
+  height: 50px;
+}
+
+th {
+  font-size: 30px;
+}
+
+td:hover {
+  background-color: blue;
+}
+
+.test {
+  border: solid black 8px;
+  padding: 20px;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[name="Search"] {
+  margin: 40px;
+  width: 50%;
+  background-color: beige;
+  padding: 20px;
+  padding-left: 60px;
+  border-radius: 50px;
+  background-image: url(../image/icons8-search-48.png);
+  background-repeat: no-repeat;
+  background-position: 10px 5px;
+}
+
+[name="area"] {
+  width: 50%;
+  height: 100px;
+  margin: 30px;
+  resize: none;
+}
+
+.transition {
+  padding: 50px;
+  border: solid 1px;
+  background-color: blue;
+  width: 500px;
+}
+
+.page {
+  padding: 20px;
+  background-color: azure;
+  column-count: 3;
+  text-align: justify;
+  column-gap: 40px;
+  column-width: 200px;
+}
+
+.textarea {
+  margin: 50px;
+  height: 100px;
+  width: 500px;
+  border: solid 1px;
+  overflow: auto;
+  resize: both;
+}
+
+@media (width:500px) {
+
+}
